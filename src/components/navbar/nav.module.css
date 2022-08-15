@@ -1,0 +1,22 @@
+nav {
+  background: antiquewhite;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.navBar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.links {
+  width: 30%;
+  font-size: 2rem;
+  text-decoration: none;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 1rem;
+  padding: 1rem;
+  cursor: pointer;
+}
