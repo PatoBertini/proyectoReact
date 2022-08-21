@@ -1,19 +1,21 @@
 import React from "react";
-import estilos from "./nav.module.css";
+import './navbar.css'
+import CartWidget from "./CartWidget";
 
 const Navbar = () => {
   return (
     <div>
       <nav>
-        <div className={estilos.navBar}>
+        <div className="navBar">
           <div className="logo">
             <img src="https://dummyimage.com/100x100/000/fff&text=logo" alt="" />
           </div>
-          <ul className={estilos.links}>
+          <ul className="links">
             <li>home</li>
             <li>contact</li>
             <li>order</li>
           </ul>
+            <CartWidget/>
         </div>
       </nav>
     </div>

@@ -10,8 +10,7 @@ const Header = () => {
         <div className={estilos.textHero}>
           <h2>BIENVENIDOS</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo
-            explicabo deleniti, necessitatibus enim aspernatur itaque?
+            Aca va un banner con una imagen
           </p>
         </div>
       </div>

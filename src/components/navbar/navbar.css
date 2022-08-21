@@ -20,3 +20,8 @@ nav {
   padding: 1rem;
   cursor: pointer;
 }
+
+.logo {
+  font-size: 3rem;
+  cursor: pointer;
+}
